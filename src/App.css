@@ -1,24 +1,57 @@
+body {
+  font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.navbar li {
+  color: #000;
+}
+
 .main-header {
   text-align: center;
-  font-size: large;
-  background: url('./header.jpeg');
+  background: url("./background.jpg");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   color: white;
-  font-size: 30px;
-  font-weight: bold;
-  background-size: cover;
+  font-weight: bold !important;
+  font-size: 200px;
+  max-width: 100%;
+  background-size: 100%;
 }
 
 .title {
-  background-color: white;
-  height: 150px;
   padding: 20px;
-  color: red;
-  font-style: italic;
   text-align: center;
 }
 
-.competences-item {
-  font-style: italic;
+hr {
+  border-color: #2efec8 !important;
+  max-width: 50px;
+  border-width: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.nav {
+  font-size: 15px !important;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+.fa-stack {
+  color: #5858fa;
 }

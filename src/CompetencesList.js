@@ -1,25 +1,53 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap/lib";
 
 class CompetencesList extends Component {
   render() {
     return (
-      <div className="Competences">
-        <div className="title">
-          <h1>Compétences</h1>
-          <Button bsStyle="warning">Warning</Button>
+      <div id="competences">
+        <div className="container">
+          <div className="col-lg-12 text-center">
+            <h2 className="title">Compétences</h2>
+            <hr />
+          </div>
+          <div className="row">
+            <div className="col-sm-4">
+              <span className="fa-stack fa-lg fa-5x">
+                <i className="fa fa-square-o fa-stack-2x" />
+                <i className="fa fa-plane fa-stack-1x" />
+              </span>
+              <h3>Développement web</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+            <div className="col-sm-4">
+              <span className="fa-stack fa-lg fa-5x">
+                <i className="fa fa-square-o fa-stack-2x" />
+                <i className="fa fa-key fa-stack-1x" />
+              </span>
+              <h3>Gestion de projet </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+            <div className="col-sm-4">
+              <span className="fa-stack fa-lg fa-5x">
+                <i className="fa fa-square-o fa-stack-2x" />
+                <i className="fa fa-key fa-stack-1x" />
+              </span>
+              <h3>Business Intelligence</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+              <p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris...
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="competences-item">
-          <ul>
-            <li> Développement de applications web.</li>
-            <li> Gestion de projet </li>
-          </ul>
-          <Button bsStyle="link"> En savoir + </Button>
-          <Button bsStyle="primary">Primary</Button>
-        </div>
-        <Button bsStyle="info"> En savoir + </Button>
-        <Button bsStyle="success">Primary</Button>
-        <Button>Warning</Button>
       </div>
     );
   }
