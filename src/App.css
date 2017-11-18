@@ -1,5 +1,10 @@
 body {
   font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
+  background-color: #2c3e4f;
+}
+
+.jumbotron {
+  background-color: #2c3e4f;
 }
 
 .navbar {
@@ -44,8 +49,14 @@ h6 {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
+p,
+div {
+  color: white;
+}
+
 .nav {
   font-size: 15px !important;
+  position: fixed;
 }
 
 .col-sm-4 {
@@ -53,5 +64,18 @@ h6 {
 }
 
 .fa-stack {
-  color: #5858fa;
+  color: #f2f5a9;
+}
+
+.block {
+  border-radius: 15px 50px;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  padding: 20px;
+}
+
+.classWithPad {
+  margin: 10px;
+  padding: 10px;
 }

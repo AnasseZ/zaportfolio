@@ -13,6 +13,9 @@ class Navbar extends Component {
               <li>
                 <a href="#experiences">Expériences</a>
               </li>
+              <li>
+                <a href="#projets">Projets</a>
+              </li>
             </ul>
           </div>
         </nav>

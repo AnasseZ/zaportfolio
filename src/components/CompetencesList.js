@@ -1,16 +1,16 @@
 import React, { Component } from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
+
 import Competence from "./Competence";
 import competences from "../constantes/competences";
+import Title from "./Title";
 
 class CompetencesList extends Component {
   render() {
     return (
-      <div id="competences">
+      <ScrollableAnchor id={"competences"}>
         <div className="jumbotron text-center">
-          <div className="col-lg-12 text-center">
-            <h1 className="title">Compétences</h1>
-            <hr />
-          </div>
+          <Title title="Compétences" />
           <div className="row">
             {competences.map(competence => {
               return (
@@ -22,7 +22,7 @@ class CompetencesList extends Component {
             })}
           </div>
         </div>
-      </div>
+      </ScrollableAnchor>
     );
   }
 }
