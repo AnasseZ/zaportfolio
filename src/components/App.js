@@ -3,6 +3,7 @@ import "../App.css";
 import CompetencesList from "./CompetencesList";
 import Header from "./Header";
 import Projets from "./Projets";
+import Experiences from "./Experiences";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Header />
         <CompetencesList />
         <Projets />
+        <Experiences />
       </div>
     );
   }
