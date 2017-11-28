@@ -9,7 +9,7 @@ class CompetencesList extends Component {
   render() {
     return (
       <ScrollableAnchor id={"competences"}>
-        <div className="jumbotron text-center">
+        <div className="container text-center">
           <Title title="Compétences" />
           <div className="row">
             {competences.map(competence => {

@@ -9,7 +9,7 @@ class Projets extends Component {
   render() {
     return (
       <ScrollableAnchor id={"projets"}>
-        <div className="jumbotron text-center">
+        <div className="container text-center">
           <Title title="Projets" />
           <div className="row">
             {projets.map(projet => {
