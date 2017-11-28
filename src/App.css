@@ -18,15 +18,12 @@ body {
 }
 
 .main-header {
-  text-align: center;
-  background: url("./background.jpg");
-  background-position: 100% 100%;
+  background-image: url("./sea.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
-  color: white;
-  font-weight: bold !important;
-  font-size: 200px;
-  max-width: 100%;
-  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 800px;
 }
 
 .title {
@@ -82,4 +79,8 @@ div {
 
 .exp {
   color: black;
+}
+
+.header-title {
+  color: pink;
 }
