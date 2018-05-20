@@ -1,18 +1,28 @@
 import React, { Component } from "react";
-import { Button } from "react-bootstrap/lib";
-import Navbar from "./Navbar";
 
 class Header extends Component {
   render() {
     return (
-      <div className="jumbotron text-center main-header">
-        <Navbar />
-        <div className="row">
-          <p className="header-title"> Anasse Zougarh </p>
-          <p> Etudiant Master MIAGE </p>
-          <Button bsStyle="link"> En savoir + </Button>
+      <header className="masthead" id="headerOne">
+        <div className="overlay" />
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 col-md-10 mx-auto">
+              <div className="page-heading">
+                <h1>Zougarh Anasse</h1>
+                <span className="subheading">Web developer</span>
+                <br />
+              </div>
+              <div className="col-lg-8 col-md-10 mx-auto" id="btnDiv">
+                <a href="#competences">
+                  <i className="fa fa-lg fa-4x fa-angle-double-down fa-stack-1x"/>
+                </a>
+              </div>
+              <br />
+            </div>
+          </div>
         </div>
-      </div>
+      </header>
     );
   }
 }
