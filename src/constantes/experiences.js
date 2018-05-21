@@ -18,17 +18,30 @@ const EXPERIENCES = [
     nom: "Développeur web @ Listo",
     date: "Avril 2017 - Août 2017",
     description:
-      "Développement d'une application web de gestion de paie:" +
-      "- Développement​, maintien de la plateforme côté backend avec Symfony 3. &nbsp" +
-      "- Application de la méthode agile Scrum.&nbsp" +
-      "- Mise en place de tests unitaires et fonctionnelles.&nbsp" +
-      "- Implémentation de l'UI avec ReactJS.&nbsp" +
-      "- Veille technique."
+      "Développement d'une application web de gestion de paie.",
+    badges: [
+      {intitule: "PHP", color: "info"},
+      {intitule: "Symfony", color: "primary"},
+      {intitule: "React", color: "success"},
+      {intitule: "Docker", color: "warning"},
+      {intitule: "Scrum", color: "danger"},
+    ],
   },
   {
     nom: "Master MIAGE Parcours PSI",
     date: "En cours",
-    description: "Université de Nantes."
+    description: "Université de Nantes.",
+  },
+  {
+    nom: "Développeur logiciel @ Capgemini",
+    date: "Avril 2018 - Août 20178",
+    description: "TMA d'une application bancaire au sein du pôle Finance.",
+    badges: [
+      {intitule: "Java", color: "info"},
+      {intitule: "C#", color: "warning"},
+      {intitule: "Cycle V", color: "dark"},
+      {intitule: "Jenkins", color: "success"},
+    ],
   }
 ];
 

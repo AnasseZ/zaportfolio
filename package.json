@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
+    "react-countup": "^3.0.3",
     "react-dom": "^15.6.1",
+    "react-on-screen": "^2.0.4",
     "react-scripts": "1.0.13",
     "react-scrollable-anchor": "^0.5.0",
     "react-vertical-timeline-component": "^2.0.1"

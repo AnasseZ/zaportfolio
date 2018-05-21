@@ -9,6 +9,7 @@ const COMPETENCES = [
       {intitule: "JavaEE", color: "success"},
       {intitule: "SQL", color: "danger"},
     ],
+    value: 70,
   },
   {
     intitule: "Développement Frontend",
@@ -19,7 +20,8 @@ const COMPETENCES = [
       {intitule: "Javascript", color: "danger"},
       {intitule: "React", color: "info"},
       {intitule: "Angular", color: "dark"},
-    ]
+    ],
+    value: 65,
   },
   {
     intitule: "Développement mobile",
@@ -27,7 +29,8 @@ const COMPETENCES = [
     skills: [
       {intitule: "Android", color: "info"},
       {intitule: "React native", color: "success"},
-    ]
+    ],
+    value: 50
   }
 ];
 

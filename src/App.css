@@ -146,10 +146,6 @@ div {
   }
 }
 
-body {
-  color: #212529;
-  font-family: Lora, "Times New Roman", serif;
-}
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -428,14 +424,13 @@ form .form-group:first-child .floating-label-form-group {
   text-align: justify;
   }
 
-.highlight span {
+span {
   margin-left: 1%;
 }
 
 .skill5
 {   padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #fff;
     text-align: center;
 }
 
