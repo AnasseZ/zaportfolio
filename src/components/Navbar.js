@@ -40,7 +40,7 @@ class Navbar extends Component {
                   className="nav-link"
                   href="#"
                 >
-                  Contact
+                  Work
                 </a>
               </li>
               <li className="nav-item">
@@ -48,7 +48,7 @@ class Navbar extends Component {
                   className="nav-link"
                   href="#"
                 >
-                  Work
+                  Contact
                 </a>
               </li>
             </ul>

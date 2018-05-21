@@ -1,16 +1,19 @@
 import React from "react";
+import Badge from "./Badge";
 
-const Competence = ({ intitule, description }) => (
-  <div className="col-md-4">
-    <div className="block">
-      <span className="fa-stack fa-lg fa-5x">
-        <i className="fa fa-square-o fa-stack-2x" />
-        <i className="fa fa-plane fa-stack-1x" />
-      </span>
-      <p>{intitule}</p>
-      <div>{description}</div>
+const Competence = ({ competence }) => {
+  const { intitule, description, skills } = competence;
+  return (
+    <div className="col-md-4">
+      <div className="highlight equal">
+        <h2>{intitule}</h2>
+        <p>{description}</p>
+        {skills.map(skill => {
+          return (<Badge skill={skill} />);
+        })}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Competence;
