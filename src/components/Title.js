@@ -5,7 +5,7 @@ class Title extends Component {
     return (
       <div className="col-lg-12 text-center">
         <h1 className="title">{this.props.title}</h1>
-        <hr />
+        <hr className="hr-title" />
       </div>
     );
   }

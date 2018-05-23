@@ -25,6 +25,8 @@ const EXPERIENCES = [
       {intitule: "React", color: "success"},
       {intitule: "Docker", color: "warning"},
       {intitule: "Scrum", color: "danger"},
+      {intitule: "TDD", color: "secondary"},
+      {intitule: "BDD", color: "dark"},
     ],
   },
   {
@@ -41,6 +43,15 @@ const EXPERIENCES = [
       {intitule: "C#", color: "warning"},
       {intitule: "Cycle V", color: "dark"},
       {intitule: "Jenkins", color: "success"},
+    ],
+  },
+  {
+    nom: "Recherche alternance Master 2",
+    date: "Année 2018-2019",
+    description: "Recherche une alternance dans le cadre de mon master 2 MIAGE.",
+    badges: [
+      {intitule: "WEB", color: "danger"},
+      {intitule: "Mobile", color: "warning"},
     ],
   }
 ];

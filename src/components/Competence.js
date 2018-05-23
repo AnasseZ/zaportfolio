@@ -11,7 +11,7 @@ const Competence = ({ competence, isVisible }) => {
     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
       <div className="skill5-counter">
         <p className="counter-count">
-          {isVisible ? <CountUp start={0} end={value} /> : null}
+          {isVisible ? <CountUp start={0} end={value} /> : 0} %
         </p>
         <p className="counter-bottom">{intitule}</p>
       </div>

@@ -36,6 +36,16 @@ export default class Experiences extends Component {
             );
           })}
         </VerticalTimeline>
+        <br />
+        <div className="col-lg-12 text-center">
+          <a href="mailto:zougarh.anasse@gmail.com"><button
+            type="button"
+            className="btn btn-outline-light btn-lg"
+            id="recruteMe"
+          >
+            Recrutez moi !
+          </button></a>
+        </div>
       </div>
     );
   }

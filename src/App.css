@@ -11,8 +11,8 @@ body {
   text-align: center;
 }
 
-hr {
-  border-color: #2efec8 !important;
+.hr-title {
+  border-color: bisque !important;
   max-width: 50px;
   border-width: 3px;
 }
@@ -411,14 +411,16 @@ form .form-group:first-child .floating-label-form-group {
   padding: 3%;
   border-style: dotted;
 }
-
+/*
 .highlight h1,h2,h3,h4,h5,h6 {
   padding-bottom: 2%;
   border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
   font-size:20px;
   text-align : center;
   text-transform: uppercase;
-  }
+  } 
+
+  */
   
 .highlight p {
   text-align: justify;
@@ -439,6 +441,7 @@ span {
     -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
     font-size: 40px;
+    font-family: Raleway;
     background-color: #1583c9;
     border-radius: 50%;
     position: relative;
@@ -470,4 +473,56 @@ span {
     font-weight: 400;
     color: #000000;
     line-height: 34px;
+    font-family: "Brandon Grotesque";
+}
+
+social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+/*
+ Multicoloured Hover Variations
+*/
+
+#social-lkd:hover {
+  color: #3B5998;
+}
+
+#social-gp:hover {
+  color: #d34836;
+}
+#social-em:hover {
+  color: #f39c12;
+}
+#recruteMe {
+  text-transform: uppercase
+}
+
+.carousel-item {
+  border: #000000;
+  border-width: 2px;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.card {
+  width: 200px;
+}
+
+.carousel-inner > div > div> div > p, h4 {
+  font-family: "Arial";
 }

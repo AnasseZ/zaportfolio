@@ -38,7 +38,7 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="#"
+                  href="#projets"
                 >
                   Work
                 </a>
@@ -46,7 +46,7 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="#"
+                  href="#footer"
                 >
                   Contact
                 </a>

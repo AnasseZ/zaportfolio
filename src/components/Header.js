@@ -10,7 +10,7 @@ class Header extends Component {
             <div className="col-lg-8 col-md-10 mx-auto">
               <div className="page-heading">
                 <h1>Zougarh Anasse</h1>
-                <span className="subheading">Web developer</span>
+                <span className="subheading">Software developer</span>
                 <br />
               </div>
               <div className="col-lg-8 col-md-10 mx-auto" id="btnDiv">

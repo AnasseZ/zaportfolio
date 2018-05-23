@@ -5,6 +5,7 @@ import Header from "./Header";
 import Projets from "./Projets";
 import Experiences from "./Experiences";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <CompetencesList />
         <Projets />
         <Experiences />
+        <Footer />
       </div>
     );
   }
