@@ -36,7 +36,7 @@ const EXPERIENCES = [
   },
   {
     nom: "Développeur logiciel @ Capgemini",
-    date: "Avril 2018 - Août 20178",
+    date: "Avril 2018 - Août 2018",
     description: "TMA d'une application bancaire au sein du pôle Finance.",
     badges: [
       {intitule: "Java", color: "info"},
