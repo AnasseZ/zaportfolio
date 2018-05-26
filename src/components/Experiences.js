@@ -14,6 +14,7 @@ export default class Experiences extends Component {
   render() {
     return (
       <div>
+        <br />
         <Title title="Expériences" />
         <VerticalTimeline>
           {experiences.map(experience => {

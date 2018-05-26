@@ -12,7 +12,7 @@ const COMPETENCES = [
     value: 70,
   },
   {
-    intitule: "Développement Frontend",
+    intitule: "Développement frontend",
     description: "Le développement frontend est ce qu'il m'intéresse le plus, avec une appétence pour React.",
     skills: [
       {intitule: "HTML", color: "success"},

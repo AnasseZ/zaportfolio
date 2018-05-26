@@ -12,7 +12,7 @@ export default () => (
         <a href="https://github.com/AnasseZ">
           <i id="social-gp" className="fa fa-github-square fa-3x social" />
         </a>
-        <a href="mailto:zougarh.anasse@gmail.com">
+        <a href="http://docdro.id/RXImiwA">
           <i id="social-em" className="fa fa-envelope-square fa-3x social" />
         </a>
         <br />

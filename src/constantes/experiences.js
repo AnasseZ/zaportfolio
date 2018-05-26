@@ -48,7 +48,7 @@ const EXPERIENCES = [
   {
     nom: "Recherche alternance Master 2",
     date: "Année 2018-2019",
-    description: "Recherche une alternance dans le cadre de mon master 2 MIAGE.",
+    description: "Recherche une alternance dans le cadre de mon master 2 MIAGE. Peut-être dans votre entreprise?",
     badges: [
       {intitule: "WEB", color: "danger"},
       {intitule: "Mobile", color: "warning"},

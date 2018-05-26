@@ -33,9 +33,9 @@ const ComponentToTrack = props => {
       <div className="container">
         <Title title="Compétences" />
         <div className="row">
-          {competences.map(competence => {
+          {competences.map((competence, index) => {
             return (
-              <Competence competence={competence} isVisible={props.isVisible} />
+              <Competence competence={competence} isVisible={props.isVisible}  index={index}/>
             );
           })}
         </div>

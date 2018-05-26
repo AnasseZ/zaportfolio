@@ -1,9 +1,11 @@
 body {
   font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
-  background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #334d50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
 }
 
 .title {
@@ -13,7 +15,7 @@ body {
 
 .hr-title {
   border-color: bisque !important;
-  max-width: 50px;
+  max-width: 80px;
   border-width: 3px;
 }
 .exp {
@@ -45,9 +47,8 @@ div {
   padding: 20px;
 }
 
-
 #headerOne {
-  background-image: url('background_f.jpg');
+  background-image: url("background_f.jpg");
   opacity: 0.75;
   height: 100vh;
 }
@@ -97,7 +98,7 @@ div {
     color: rgba(255, 255, 255, 0.8);
   }
   #mainNav .navbar-nav > li.nav-item > a:hover {
-    border-style:solid;
+    border-style: solid;
     border-bottom-color: bisque;
     border-width: 0px 0px 2px 0px;
   }
@@ -403,7 +404,6 @@ form .form-group:first-child .floating-label-form-group {
   color: cornsilk;
 }
 
-
 .highlight {
   color: white;
   background: rgba(0, 0, 0, 0.26);
@@ -411,69 +411,72 @@ form .form-group:first-child .floating-label-form-group {
   padding: 3%;
   border-style: dotted;
 }
-/*
-.highlight h1,h2,h3,h4,h5,h6 {
-  padding-bottom: 2%;
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
-  font-size:20px;
-  text-align : center;
-  text-transform: uppercase;
-  } 
 
-  */
-  
 .highlight p {
   text-align: justify;
-  }
+}
 
 span {
   margin-left: 1%;
 }
 
-.skill5
-{   padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+.skill5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
-.skill5 .counter-count 
-{    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    font-size: 40px;
-    font-family: Raleway;
-    background-color: #1583c9;
-    border-radius: 50%;
-    position: relative;
-    color: #ffffff;
-    text-align: center;
-    line-height: 172px;
-    width: 192px;
-    height: 192px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    display: inline-block;
-    text-shadow: rgb(13, 115, 188) 1px 1px, rgb(13, 115, 188) 2px 2px, rgb(13, 115, 188) 3px 3px, rgb(13, 115, 188) 4px 4px, rgb(13, 115, 188) 5px 5px, rgb(13, 115, 188) 6px 6px, rgb(13, 115, 188) 7px 7px, rgb(13, 115, 188) 8px 8px, rgb(13, 115, 188) 9px 9px, rgb(13, 115, 188) 10px 10px, rgb(13, 115, 188) 11px 11px, rgb(13, 115, 188) 12px 12px, rgb(13, 116, 189) 13px 13px, rgb(13, 116, 189) 14px 14px, rgb(13, 116, 189) 15px 15px, rgb(13, 116, 189) 16px 16px, rgb(13, 117, 191) 17px 17px, rgb(13, 117, 191) 18px 18px, rgb(13, 117, 191) 19px 19px, rgb(13, 118, 192) 20px 20px, rgb(13, 118, 192) 21px 21px, rgb(14, 119, 194) 21px 21px, rgb(14, 120, 196) 22px 22px, rgb(14, 121, 197) 23px 23px, rgb(14, 122, 199) 24px 24px, rgb(14, 123, 201) 25px 25px, rgb(14, 124, 203) 26px 26px, rgb(14, 125, 204) 27px 27px, rgb(14, 126, 206) 28px 28px, rgb(15, 127, 208) 29px 29px, rgb(15, 128, 209) 30px 30px;
+.skill5 .counter-count {
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-family: Raleway;
+  background-color: s#659999;
+  border-radius: 50%;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  line-height: 172px;
+  width: 192px;
+  height: 192px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-block;
+  text-shadow: #334d50 1px 1px, #334d50 2px 2px,
+  #334d50 3px 3px ;
 }
 
-.skill5 .counter-count .counter-percent
-{	
-	font-size: 40px;
-    color: #ffffff;
-    margin-left: 1px;
-    text-shadow: rgb(13, 115, 188) 1px 1px, rgb(13, 115, 188) 2px 2px, rgb(13, 115, 188) 3px 3px, rgb(13, 115, 188) 4px 4px, rgb(13, 115, 188) 5px 5px, rgb(13, 115, 188) 6px 6px, rgb(13, 115, 188) 7px 7px, rgb(13, 115, 188) 8px 8px, rgb(13, 115, 188) 9px 9px, rgb(13, 115, 188) 10px 10px, rgb(13, 115, 188) 11px 11px, rgb(13, 115, 188) 12px 12px, rgb(13, 116, 189) 13px 13px, rgb(13, 116, 189) 14px 14px, rgb(13, 116, 189) 15px 15px, rgb(13, 116, 189) 16px 16px, rgb(13, 117, 191) 17px 17px, rgb(13, 117, 191) 18px 18px, rgb(13, 117, 191) 19px 19px, rgb(13, 118, 192) 20px 20px, rgb(13, 118, 192) 21px 21px, rgb(14, 119, 194) 21px 21px, rgb(14, 120, 196) 22px 22px, rgb(14, 121, 197) 23px 23px, rgb(14, 122, 199) 24px 24px, rgb(14, 123, 201) 25px 25px, rgb(14, 124, 203) 26px 26px, rgb(14, 125, 204) 27px 27px, rgb(14, 126, 206) 28px 28px, rgb(15, 127, 208) 29px 29px, rgb(15, 128, 209) 30px 30px;
-    
+.skill5 .counter-count .counter-percent {
+  font-size: 40px;
+  color: #ffffff;
+  margin-left: 1px;
+  text-shadow: rgb(13, 115, 188) 1px 1px, rgb(13, 115, 188) 2px 2px,
+    rgb(13, 115, 188) 3px 3px, rgb(13, 115, 188) 4px 4px,
+    rgb(13, 115, 188) 5px 5px, rgb(13, 115, 188) 6px 6px,
+    rgb(13, 115, 188) 7px 7px, rgb(13, 115, 188) 8px 8px,
+    rgb(13, 115, 188) 9px 9px, rgb(13, 115, 188) 10px 10px,
+    rgb(13, 115, 188) 11px 11px, rgb(13, 115, 188) 12px 12px,
+    rgb(13, 116, 189) 13px 13px, rgb(13, 116, 189) 14px 14px,
+    rgb(13, 116, 189) 15px 15px, rgb(13, 116, 189) 16px 16px,
+    rgb(13, 117, 191) 17px 17px, rgb(13, 117, 191) 18px 18px,
+    rgb(13, 117, 191) 19px 19px, rgb(13, 118, 192) 20px 20px,
+    rgb(13, 118, 192) 21px 21px, rgb(14, 119, 194) 21px 21px,
+    rgb(14, 120, 196) 22px 22px, rgb(14, 121, 197) 23px 23px,
+    rgb(14, 122, 199) 24px 24px, rgb(14, 123, 201) 25px 25px,
+    rgb(14, 124, 203) 26px 26px, rgb(14, 125, 204) 27px 27px,
+    rgb(14, 126, 206) 28px 28px, rgb(15, 127, 208) 29px 29px,
+    rgb(15, 128, 209) 30px 30px;
 }
 
-.skill5 .counter-bottom
-{
-    font-size: 24px;
-    font-weight: 400;
-    color: #000000;
-    line-height: 34px;
-    font-family: "Brandon Grotesque";
+.skill5 .counter-bottom {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 34px;
+  font-family: "Brandon Grotesque";
 }
 
 social:hover {
@@ -484,7 +487,7 @@ social:hover {
 .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
-  
+
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
   -webkit-transition-duration: 0.5s;
@@ -497,7 +500,7 @@ social:hover {
 */
 
 #social-lkd:hover {
-  color: #3B5998;
+  color: #3b5998;
 }
 
 #social-gp:hover {
@@ -507,22 +510,25 @@ social:hover {
   color: #f39c12;
 }
 #recruteMe {
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
-.carousel-item {
-  border: #000000;
-  border-width: 2px;
+.carousel-inner > div > div > div > p,
+h4 {
+  font-family: Karla, "Playfair Display", sans-serif;
 }
 
-.card-img-top {
-  width: 100%;
+.carousel-inner > div > div > div.col.md-6.content {
+  border-radius: 2px;
+  border: 1px solid bisque;
+  height: 300px;
 }
 
-.card {
-  width: 200px;
+.counter-bottom {
+  color: whitesmoke !important;
+  font-family: Karla, "Roboto", sans-serif !important;
 }
 
-.carousel-inner > div > div> div > p, h4 {
-  font-family: "Arial";
+.col.md-4.see-more {
+  font-family: Karla;
 }

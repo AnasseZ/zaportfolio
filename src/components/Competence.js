@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 import Badge from "./Badge";
 
-const Competence = ({ competence, isVisible }) => {
+const Competence = ({ competence, isVisible, index }) => {
   const { intitule, description, skills, value } = competence;
 
   return (
@@ -13,7 +13,18 @@ const Competence = ({ competence, isVisible }) => {
         <p className="counter-count">
           {isVisible ? <CountUp start={0} end={value} /> : 0} %
         </p>
-        <p className="counter-bottom">{intitule}</p>
+        <p
+          className="counter-bottom"
+          data-toggle="collapse"
+          data-target={"#demo" + index}
+        >
+          {intitule}
+        </p>
+        <div id={"demo" + index} className="collapse">
+          {skills.map(skill => {
+            return <Badge skill={skill} />;
+          })}
+        </div>
       </div>
     </div>
   );
