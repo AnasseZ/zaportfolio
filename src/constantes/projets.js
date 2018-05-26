@@ -50,7 +50,7 @@ const PROJETS = [
       {intitule: "Javascript", color: "danger"},
       {intitule: "React", color: "warning"},
     ],
-    url: "#"
+    url: "https://github.com/AnasseZ/zaportfolio"
   },
   {
     title: "Currently learning...",

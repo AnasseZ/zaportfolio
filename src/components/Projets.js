@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 
-import Projet from "./Projet";
 import projets from "../constantes/projets.js";
 import Title from "./Title";
 import CarouselItem from "./CarouselItem";
 
 class Projets extends Component {
   render() {
-    const size = projets.length;
-
-    const liCustom = <li data-target="#demo" data-slide-to="3" />;
     return (
       <ScrollableAnchor id={"projets"}>
         <div className="container text-center">
@@ -19,7 +15,7 @@ class Projets extends Component {
           <div id="demo" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               {projets.map((projet, index) => {
-                const first = index == 0 ? true : false;
+                const first = index === 0 ? true : false;
                 return <CarouselItem first={first} projet={projet} />;
               })}
             </div>

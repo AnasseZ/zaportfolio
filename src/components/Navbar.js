@@ -3,8 +3,14 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light" id="mainNav">
+      <nav
+        className="navbar fixed-top navbar-expand-lg navbar-light"
+        id="mainNav"
+      >
         <div className="container">
+          <a className="navbar-brand" href="/">
+            <img src="../icon.png" alt="logo" id="logo"/>
+          </a>
           <button
             className="navbar-toggler navbar-toggler-right"
             type="button"
@@ -20,34 +26,22 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="index.html"
-                >
+                <a className="nav-link" href="index.html">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#competences"
-                >
+                <a className="nav-link" href="#competences">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#projets"
-                >
+                <a className="nav-link" href="#projets">
                   Work
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="#footer"
-                >
+                <a className="nav-link" href="#footer">
                   Contact
                 </a>
               </li>

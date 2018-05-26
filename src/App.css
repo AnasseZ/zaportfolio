@@ -532,3 +532,7 @@ h4 {
 .col.md-4.see-more {
   font-family: Karla;
 }
+
+#logo {
+  height: 50px;
+}

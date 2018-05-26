@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 import Badge from "./Badge";
 
 const Competence = ({ competence, isVisible, index }) => {
-  const { intitule, description, skills, value } = competence;
+  const { intitule, skills, value } = competence;
 
   return (
     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
