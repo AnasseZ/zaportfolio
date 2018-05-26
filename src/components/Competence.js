@@ -1,18 +1,24 @@
 import React from "react";
 
+import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 
 import Badge from "./Badge";
 
-const Competence = ({ competence, isVisible, index }) => {
-  const { intitule, skills, value } = competence;
+const ComponentToTrack = ({ isVisible, value}) => {
+  return <p className="counter-count">
+  {isVisible ? <CountUp start={0} end={value} /> : 0} %
+</p>
+}
 
+const Competence = ({ competence, index }) => {
+  const { intitule, skills, value } = competence;
   return (
     <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
       <div className="skill5-counter">
-        <p className="counter-count">
-          {isVisible ? <CountUp start={0} end={value} /> : 0} %
-        </p>
+        <TrackVisibility once>
+          <ComponentToTrack  value={value}/>
+        </TrackVisibility>
         <p
           className="counter-bottom"
           data-toggle="collapse"
@@ -29,15 +35,5 @@ const Competence = ({ competence, isVisible, index }) => {
     </div>
   );
 };
-
-/* <div className="col-md-4">
-      <div className="highlight equal">
-        <h2>{intitule}</h2>
-        <p>{description}</p>
-        {skills.map(skill => {
-          return (<Badge skill={skill} />);
-        })}
-      </div>
-    </div> */
 
 export default Competence;
